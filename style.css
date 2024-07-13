@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+header img {
+    height: 150px;
+    width: auto;
+    display: block;
+    margin: 0 auto; /* Центрує зображення по горизонталі */
+}
+
+header h1 {
+    color: silver;
+    font-family: serif;
+    margin: 10px 0 0; /* Додає відступи зверху */
+}
+
+nav {
+    background-color: #222;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav img {
+    height: 50px;
+    width: auto;
+    margin-right: 20px;
+}
+
+nav a {
+    color: silver;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0 15px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: white;
+}
+
+main {
+    background-color: white;
+    color: black;
+    padding: 20px;
+}
+
+main h1 {
+    font-size: 36px;
+    font-family: sans-serif;
+    margin-top: 0;
+}
+
+main p {
+    font-size: 18px;
+    font-family: sans-serif;
+    line-height: 1.6;
+}
+
+main img {
+    border-radius: 10px;
+    opacity: 0.8;
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+    transition: opacity 0.5s ease-out, border 0.5s ease-out;
+}
+
+main img:hover {
+    opacity: 1;
+    border: 6px solid silver;
+}
+
+main a {
+    display: inline-block;
+    font-size: 18px;
+    text-decoration: none;
+    background-color: dodgerblue;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 30px;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+main a:hover {
+    background-color: blue;
+    border-color: blue;
+}
+
+/* Стилі для зображень в розділі Mercedes-Benz */
+.mercedes-images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.mercedes-images img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    opacity: 0.8;
+    transition: opacity 0.5s ease-out, border 0.5s ease-out;
+}
+
+.mercedes-images img:hover {
+    opacity: 1;
+    border: 6px solid silver;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer h1 {
+    font-size: 24px;
+}
+
+footer p {
+    font-size: 16px;
+    line-height: 1.6;
+}
